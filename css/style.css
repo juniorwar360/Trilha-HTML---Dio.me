@@ -92,7 +92,7 @@ body {
   padding: 10px 20px 0px;
 }
 .header {
-  -webkit-background-size: cover;
+  background-size: cover;
   background-color: rgb(38, 48, 48);
   background-image: url("https://capsule-render.vercel.app/api?type=Waving&height=150&color=gradient&customColorList=7");
   min-height: 150px;
@@ -119,8 +119,11 @@ body {
   
 }
 .footer {
-  background-color: rgb(99, 56, 240);
-  min-height: 150px;
+ 	background-size: cover;
+	background-color: rgb(38, 48, 48);
+	background-image: url("https://capsule-render.vercel.app/api?type=Waving&height=150&color=gradient&customColorList=7");
+	min-height: 150px;
+	align-items: center;;
 }
 
 #nomeCli {
@@ -129,9 +132,7 @@ body {
   padding-left: 0px;
   padding-right: 0px;
 }
-.container{
  
-}
 .txt1 ul,h2 {
 
 padding: 12px;
@@ -146,9 +147,8 @@ padding: 12px;
 
 	text-decoration: none;
 	list-style: none;
-	;
+	
 	}
 	
-
-
+ 
  
