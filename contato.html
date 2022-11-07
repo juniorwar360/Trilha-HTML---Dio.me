@@ -34,7 +34,7 @@
           <!-- Aqui vai o seu header -->
         </div>
         <div class="formulario">
-          <form name="signup" action="">
+          <form name="signup" autocomplete="off" action="">
 
             <label for="nome">Nome</label> <input type="text" name="nome" id="nome" />
             <br />
@@ -42,15 +42,17 @@
             <label for="email">Email </label>
             <input type="email" name="Email" id="email" /> <br />
             <br />
-           <label for="Assunto" id="LbAssunto">Assunto</label>  <input type="password" name="password" id="Assunto" /><br />
+           <label for="Assunto" id="LbAssunto">Assunto</label>  <input type="text" name="assunto" id="Assunto" /><br />
             <br />
          <label for="Msg" id="lbMsg"  >Mensagem</label>   <textarea id="Msg" name="Mensagem" rows="4" cols="50">
             </textarea>
             <br />
 
-            
+            <div id="botao"  > <button id="enviar" type="submit">enviar</button> <br /></div>
+          
           </form>
-          <button id="enviar" type="submit">enviar</button> <br />
+
+        
         </div>
         <div class="footer"></div>
       </div>
