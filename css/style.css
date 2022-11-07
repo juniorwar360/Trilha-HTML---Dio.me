@@ -1,9 +1,13 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+
 }
 body {
   background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
 }
 #icone {
   cursor: pointer;
@@ -65,16 +69,6 @@ nav a {
   transform: translateX(300px);
 }
 
-html,
-body {
-  margin: 0;
-}
-body {
-  background-color: #f1f1f1;
-  display: flex;
-  justify-content: center;
-}
-
 .wrapper {
   width: 100%;
   display: flex;
@@ -104,26 +98,24 @@ body {
 .header H1 {
   border-top: 50px;
   margin: auto;
-  font-family:courier,arial,helvetica;
-  font-size: 50px ;
+  font-family: courier, arial, helvetica;
+  font-size: 50px;
   color: #3c2c61;
- 
 }
- 
+
 .content {
   background-color: white;
   min-height: 300px;
   padding: 20px;
   display: flex;
-  justify-content:space-between ;
-  
+  justify-content: space-between;
 }
 .footer {
- 	background-size: cover;
-	background-color: rgb(38, 48, 48);
-	background-image: url("https://capsule-render.vercel.app/api?type=Waving&height=150&color=gradient&customColorList=7");
-	min-height: 150px;
-	align-items: center;;
+  background-size: cover;
+  background-color: rgb(38, 48, 48);
+  background-image: url("https://capsule-render.vercel.app/api?type=Waving&height=150&color=gradient&customColorList=7");
+  min-height: 150px;
+  align-items: center;
 }
 
 #nomeCli {
@@ -132,23 +124,132 @@ body {
   padding-left: 0px;
   padding-right: 0px;
 }
- 
-.txt1 ul,h2 {
 
-padding: 12px;
-
+.txt1 ul,
+h2 {
+  padding: 12px;
 }
 
-.txt1 strong{
-	padding: 12px;
-
+.txt1 strong {
+  padding: 12px;
 }
 .txt1 ul li {
+  text-decoration: none;
+  list-style: none;
+}
+.sobre {
+  text-align: center;
+  height: 350px;
+  width: 800px;
+  margin: auto;
+  padding-top: 50px;
+}
+.sobre h3 {
+  padding: 15px;
+}
 
-	text-decoration: none;
-	list-style: none;
-	
-	}
-	
+.sobre h4 {
+  padding: 5px;
+}
+table{
+ margin: 0px 40px 40px 0px;
+  width: 100%;
+  border-collapse: collapse;
+  align-items: center;
+  
+
+}
+table td tr {
  
+  width: 10px; 
+  
+}
+.tabelaHo{
  
+  align-items: center;
+}
+
+table tr:nth-child(even) {
+  background-color: rgb(161, 177, 177);
+
+   
+}
+table tr :hover {
+  background-color: #5c585890;
+}
+
+thead {
+  background-color: rgb(161, 177, 177);
+
+}
+caption{
+  background-color: rgb(245, 247, 247);
+}
+ 
+html{
+
+  background-color: rgb(38, 48, 48);
+}
+
+.headerContato {
+  background-size: cover;
+  background-color: rgb(147, 163, 163);
+  background-image: url("https://unichristus.edu.br/wp-content/uploads/2015/05/CONTATOS.png");
+  min-height: 150px;
+  align-items: center;
+  color: #9292a3;
+ 
+}
+
+ 
+.headerContato #nomeCli {
+  padding-top: 45px;
+}
+.headerContato H1 {
+  border-top: 50px;
+  margin: auto;
+  font-family: courier, arial, helvetica;
+  font-size: 50px;
+  color: #c6c2d1;
+}
+
+.formulario{
+
+margin: 20px;
+
+}
+.formulario label  {
+
+  padding : 15px;
+}
+#nome{
+  border-left: 10px;
+  padding-right: 100px;
+}
+#Assunto{
+
+  padding-right: 100px;
+}
+ 
+#email{
+  padding-right: 100px;
+  border-left: 10px;
+}
+#LbAssunto{
+  padding : 8px;
+
+}
+#msg ,#lbMsg{
+
+  padding : 0px;
+}
+#lbMsg{
+ position:relative ;
+   
+}
+
+#enviar{
+ 
+
+   
+}
